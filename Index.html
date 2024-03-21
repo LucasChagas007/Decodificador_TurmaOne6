@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Textos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header-btn">
+      <h1 class="logo-title">Encriptador de Textos</h1>
+    </header>
+
+    <div class="section-container-main">
+      <div class="section-text-btn">
+        <textarea id="inputText" class="input-text" placeholder="Insira o texto aqui"></textarea>
+        <div class="buttons">
+          <button class="btn" id="encript">Encriptar</button>
+          <button class="btn" id="decrypt">Desencriptar</button>
+          <button class="btn" id="copy-text">Copiar</button>
+        </div>
+      </div>
+
+      <div class="input-btn-content disabled" id="outputText">
+        <div class="text-box">
+          <p id="text-result"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="footer__content-copyright">Copyright © 2024 | Coded with by Lucas Chagas</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
